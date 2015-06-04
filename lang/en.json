@@ -1,5 +1,5 @@
 {
-    "dances": [
+    /*"dances": [
     "\/me %%NAME%% is doing a moonwalk! On the actual Moon.",
 	"\/me %%NAME%% is rocking! Hold tight!",
 	"\/me %%NAME%% is moving gracefully like a swan. Wait, now %%NAME%% is flying. Judges are in awe.",
@@ -16,7 +16,7 @@
 	"\/me %%NAME%% is drawing attention of people around like the Great Attractor.",
 	"\/me %%NAME%% is dancing on the table, throwing food and drinks away.",
 	"\/me %%NAME%% is reading about people dancing.",
-	],
+	],*/
 	
 	"pairdances": [
 	"\/me %%NAME%% is dancing the foxtrot, %%NAME2%% is dancing the wolfgallop.",
