@@ -1,31 +1,31 @@
 {
     "dances": [
-    "/me %%NAME%% is doing a moonwalk! On the actual Moon.",
-	"/me %%NAME%% is rocking! Hold tight!",
-	"/me %%NAME%% is moving gracefully like a swan. Wait, now %%NAME%% is flying. Judges are in awe.",
-	"/me Dance, Dance! %%NAME%% is falling apart to half time. Dance, dance!",
-	"/me %%NAME%% is anxiously looking at the dancefloor. The dancefloor is looking back.",
-	"/me %%NAME%% is wondering idly, are we human or are we dancer?",
-	"/me We are raising the stakes! %%NAME%% is dancing on them. It looks painful.",
-	"/me %%NAME%%, is your body a cage that keeps you from dancing with the one you love? Here's the key ♮.",
-	"/me Today in Dancing with the Stars %%NAME%%'s partner is Alpha Centauri. She looks hot!",
-	"/me Uh-oh. Apparently, %%NAME%% has two left feet. We are looking for the owner of the second one.",
-	"/me %%NAME%% is moving slightly on the chair to the rhythm of the music.",
-	"/me %%NAME%% owns the dancefloor! And charges for entrance.",
-	"/me %%NAME%% is spinning faster than an electron around it's orbit.",
-	"/me %%NAME%% is drawing attention of people around like the Great Attractor.",
-	"/me %%NAME%% is dancing on the table, throwing food and drinks away.",
-	"/me %%NAME%% is reading about people dancing.",
+    "\/me %%NAME%% is doing a moonwalk! On the actual Moon.",
+	"\/me %%NAME%% is rocking! Hold tight!",
+	"\/me %%NAME%% is moving gracefully like a swan. Wait, now %%NAME%% is flying. Judges are in awe.",
+	"\/me Dance, Dance! %%NAME%% is falling apart to half time. Dance, dance!",
+	"\/me %%NAME%% is anxiously looking at the dancefloor. The dancefloor is looking back.",
+	"\/me %%NAME%% is wondering idly, are we human or are we dancer?",
+	"\/me We are raising the stakes! %%NAME%% is dancing on them. It looks painful.",
+	"\/me %%NAME%%, is your body a cage that keeps you from dancing with the one you love? Here's the key ♮.",
+	"\/me Today in Dancing with the Stars %%NAME%%'s partner is Alpha Centauri. She looks hot!",
+	"\/me Uh-oh. Apparently, %%NAME%% has two left feet. We are looking for the owner of the second one.",
+	"\/me %%NAME%% is moving slightly on the chair to the rhythm of the music.",
+	"\/me %%NAME%% owns the dancefloor! And charges for entrance.",
+	"\/me %%NAME%% is spinning faster than an electron around it's orbit.",
+	"\/me %%NAME%% is drawing attention of people around like the Great Attractor.",
+	"\/me %%NAME%% is dancing on the table, throwing food and drinks away.",
+	"\/me %%NAME%% is reading about people dancing.",
 	],
 	
 	"pairdances": [
-	"/me %%NAME%% is dancing the foxtrot, %%NAME2%% is dancing the wolfgallop.",
-	"/me %%NAME%% and %%NAME2%% are prancing like ponies.",
-	"/me %%NAME%% and %%NAME2%% are doing the twist in a 50's-themed restaurant.",
-	"/me %%NAME%% swings %%NAME2%% around. People duck away in fear.",
-	"/me %%NAME%% is shooting at the ground at %%NAME2%%'s feet and saying: \"Dance!\"",
-	"/me %%NAME%% puts a rose in the mouth. %%NAME2%%, being allergic to flowers, backs away.",
-	"/me \"Take my hand,\" %%NAME%% said to %%NAME2%%. \"I don't need it.\"",
+	"\/me %%NAME%% is dancing the foxtrot, %%NAME2%% is dancing the wolfgallop.",
+	"\/me %%NAME%% and %%NAME2%% are prancing like ponies.",
+	"\/me %%NAME%% and %%NAME2%% are doing the twist in a 50's-themed restaurant.",
+	"\/me %%NAME%% swings %%NAME2%% around. People duck away in fear.",
+	"\/me %%NAME%% is shooting at the ground at %%NAME2%%'s feet and saying: \"Dance!\"",
+	"\/me %%NAME%% puts a rose in the mouth. %%NAME2%%, being allergic to flowers, backs away.",
+	"\/me \"Take my hand,\" %%NAME%% said to %%NAME2%%. \"I don't need it.\"",
 	],
     	
     "tests": [
@@ -50,6 +50,7 @@
 		"\/me Welcome, %%NAME%%. We predict that you will stay here for a long time. Although our future-prediction system is not very accurate. Stay with us to see if we were right.",
 		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you want to sing, dance or learn how to play an instrument."
 	],
+
 
     "cookies": [
         "has given you a chocolate chip cookie!",
