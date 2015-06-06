@@ -36,8 +36,8 @@
 	"\/me %%NAME%% tries to copy %%NAME2%%'s dance. %%NAME%% is doing the same.",
 	"\/me %%NAME%% is expertly avoiding %%NAME2%%'s feet.",
 	"\/me %%NAME%% called %%NAME%%2 for a line dance. Somehow they are the only people in the line.",
-	"\/me After hearing the rejection %%NAME%% just throws %%NAME2%% on the shoulder and happily starts to dance.",
-	"\/me "
+	"\/me After hearing a rejection %%NAME%% just throws %%NAME2%% on the shoulder and happily starts to dance.",
+	"\/me %%NAME%% and %%NAME%%2 are going round and round the room, hunting that elusive waiter with the wine."
 	],
     	
     "tests": [
@@ -58,7 +58,7 @@
 		"\/me Welcome, %%NAME%%. This is your first visit, so here are some rules: 1. Listen to the music. 2. Bob your head a little. 3. Feel irrationally happy.",
 		"\/me Welcome, %%NAME%%. We are happy to see a new face. Yes, we can see your face. Yes, through that camera you did not know about. Smile.",
 		"\/me Hello, %%NAME%%. Nice for you to visit us. Would you like a cup of tea? Go and make it. And then return to enjoy some heart-warming music with it.",
-		"\/me Hello, %%NAME%%. Welcome to the greatest instrumental radio. As you can see we are testing our truth-enhancing module. Oh, by the way, you look terrific!",
+		"\/me Hello, %%NAME%%. Welcome to the greatest instrumental radio. As you can see we are testing our new truth-enhancing module. Oh, by the way, you look terrific!",
 		"\/me Welcome, %%NAME%%. We predict that you will stay here for a long time. Although our future-prediction system is not very accurate. Stay with us to see if we were right.",
 		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you want to sing, dance or learn how to play an instrument."
 	],
