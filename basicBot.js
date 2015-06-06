@@ -830,7 +830,8 @@
                     }, 1 * 1000, user)
                     :
                     setTimeout(function (user) {
-                        API.sendChat(subChat(basicBot.chat.welcome, {name: user.username}));
+                    	var welcomeNumber = Math.floor(Math.random() * welcomes.length);
+                        API.sendChat(subChat(basicBot.chat.welcomes[welcomeNumber], {name: user.username}));
                     }, 1 * 1000, user);
             }
         },
