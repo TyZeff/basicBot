@@ -63,7 +63,8 @@
 		"\/me Hello, %%NAME%%. Nice for you to visit us. Would you like a cup of tea? Go and make it. And then return to enjoy some heart-warming music with it.",
 		"\/me Hello, %%NAME%%. Welcome to the greatest instrumental radio. As you can see we are testing our new truth-enhancing module. Oh, by the way, you look terrific!",
 		"\/me Welcome, %%NAME%%. We predict that you will stay here for a long time. Although our future-prediction system is not very accurate. Stay with us to see if we were right.",
-		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you want to sing, dance or learn how to play an instrument."
+		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you want to sing, dance or learn how to play an instrument.",
+		"\/me Welcome, %%NAME%%. We are very <insert an emotion> to see you! You are so <insert a comliment>. Stay with us and you will be awareded with a pice of <insert a lie>!"
 	],
 
 
