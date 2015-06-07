@@ -19,10 +19,9 @@
 	"\/me It's Yule Ball! %%NAME%%, put on your robe and wizard hat and dance!",
 	"\/me %%NAME%% is dancing with the Devil. He is actually a great partner.",
 	"\/me Look! %%NAME%% dances like there's nobody watching.",
-	"\/me %%NAME%% likes to choose dances with funny names. Apparently, a mosh pit isn't very amusing for other people.",
 	"\/me %%NAME%% is doing the step dance. Well, at least the \"step\" part.",
 	"\/me %%NAME%% is dancing on the hands! Other people's hands.",
-	"\/me %%NAME%% does the plumber dance. Tap dance. The drummer plays \"Badum tss\"."
+	"\/me %%NAME%% does the plumber dance. Tap dance! The drummer plays \"Badum tss\"."
 	],
 	
 	"pairdances": [
@@ -37,7 +36,11 @@
 	"\/me %%NAME%% is expertly avoiding %%NAME2%%'s feet.",
 	"\/me %%NAME%% called %%NAME%%2 for a line dance. Somehow they are the only people in the line.",
 	"\/me After hearing a rejection %%NAME%% just throws %%NAME2%% on the shoulder and happily starts to dance.",
-	"\/me %%NAME%% and %%NAME%%2 are going round and round the room, hunting that elusive waiter with the wine."
+	"\/me %%NAME%% and %%NAME%%2 are going round and round the room, hunting that elusive waiter with the wine.",
+	"\/me %%NAME%% asks %%NAME2%% for a dance. Now for a break. And now for help!",
+	"\/me %%NAME%% is dancing with %%NAME2%%, who isn't aware of it.",
+	"\/me %%NAME%% learns from experience that %%NAME2%% uses the word \"dance\" as a euphemism.",
+	"\/me %%NAME2%% tries to save %%NAME%% from a heart attack, who was actually just doing the robot dance."
 	],
     	
     "tests": [
