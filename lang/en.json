@@ -53,7 +53,7 @@
     
     "welcomes": [
 		"\/me Welcome, %%NAME%%, to the Master of Instrumental computer-aided music enrichment center. Enjoy your stay.",
-		"\/me Welcome, %%NAME%%, you are now testing our new #CLASSIFIED#. Please try not to enjoy the music too much because it is not part of the test.",
+		"\/me Welcome, %%NAME%%, you are now testing #CLASSIFIED#. Please try not to enjoy the music too much because it is not part of the test.",
 		"\/me Welcome, %%NAME%% to the test chamber #42. To begin the test sit back, relax and listen to the music.",
 		"\/me Welcome, %%NAME%%. We want to inform you that someday all your wishes will come true. Please listen to this music while you wait.",
 		"\/me Hello, %%NAME%%. Did you know that instrumental music greatly enhances your brain's capabilities? It is a true fact we certainly did not make up. Enjoy.",
@@ -63,8 +63,8 @@
 		"\/me Hello, %%NAME%%. Nice for you to visit us. Would you like a warm cup of tea? Go and make it. And we will provide some heart-warming music for you.",
 		"\/me Hello, %%NAME%%. Welcome to the greatest instrumental radio. As you can see we are testing our new truth-enhancing module. Oh, by the way, you look terrific!",
 		"\/me Welcome, %%NAME%%. We predict that you will stay here for a long time. Although, our future-prediction system is not very accurate. Stay with us to see if we were right.",
-		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you want to sing, dance or learn how to play an instrument.",
-		"\/me Welcome, %%NAME%%. We are very <insert an emotion> to see you! You are so <insert a comliment>. Stay with us and you will be awareded with a pice of <insert a lie>!"
+		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you want to sing, dance or live a happy life.",
+		"\/me Welcome, %%NAME%%. We are very <insert an emotion> to see you! You are so <insert a compliment>. Stay with us and you will be awareded with a pice of <insert a lie>!"
 	],
 
 
