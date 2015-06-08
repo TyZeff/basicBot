@@ -245,21 +245,21 @@
             language: "english",
             chatLink: "https://rawgit.com/Agamidae/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupVolume: 50, // 0-100
+            startupEmoji: true, // true or false
             cmdDeletion: true,
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
             lockGuard: false,
             maximumLocktime: 10,
-            cycleGuard: true,
+            cycleGuard: false,
             maximumCycletime: 10,
-            voteSkip: false,
-            voteSkipLimit: 10,
+            voteSkip: true,
+            voteSkipLimit: 3,
             historySkip: false,
             timeGuard: true,
             maximumSongLength: 10,
@@ -278,8 +278,8 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
-            motdEnabled: false,
-            motdInterval: 5,
+            motdEnabled: true,
+            motdInterval: 15,
             motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
@@ -292,7 +292,7 @@
             website: null,
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
