@@ -2134,7 +2134,7 @@
                 }
             },
 
-            helpCommand: {
+            /*helpCommand: {
                 command: 'help',
                 rank: 'user',
                 type: 'exact',
@@ -2146,7 +2146,7 @@
                         API.sendChat(subChat(basicBot.chat.starterhelp, {link: link}));
                     }
                 }
-            },
+            },*/
 
             historyskipCommand: {
                 command: 'historyskip',
@@ -3509,11 +3509,24 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                    	API.sendChat("\/me = ^.˘.^ = &nbsp miaow!");
+                    	API.sendChat(subChat(basicBot.chat.maow));
                     }
                 }
             },
 	
+	helpCommand: {
+        	command: 'help',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                    	API.sendChat(subChat(basicBot.chat.help));
+                    }
+                }
+            },
+            
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',
