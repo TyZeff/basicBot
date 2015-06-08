@@ -280,7 +280,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: true,
             motdInterval: 15,
-            motd: "Temporary Message of the Day",
+            motd: "\"Without music, life would be a mistake\" – Friedrich Nietzsche",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
