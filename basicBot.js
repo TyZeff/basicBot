@@ -826,12 +826,12 @@
             if (basicBot.settings.welcome && greet) {
                 welcomeback ?
                     setTimeout(function (user) {
-                        API.sendChat(subChat(basicBot.chat.welcomeback, {name: user.username}));
+                        API.chatLog(subChat(basicBot.chat.welcomeback, {name: user.username}));
                     }, 1 * 1000, user)
                     :
                     setTimeout(function (user) {
                     	var welcomeNumber = Math.floor(Math.random() * basicBot.chat.welcomes.length);
-                        API.sendChat(subChat(basicBot.chat.welcomes[welcomeNumber], {name: user.username}));
+                        API.chatLog(subChat(basicBot.chat.welcomes[welcomeNumber], {name: user.username}));
                     }, 1 * 1000, user);
             }
         },
