@@ -826,12 +826,12 @@
             if (basicBot.settings.welcome && greet) {
                 welcomeback ?
                     setTimeout(function (user) {
-                        API.chatLog(subChat(basicBot.chat.welcomeback, {name: user.username}));
+                        API.sendChat(subChat(basicBot.chat.welcomeback, {name: user.username}));
                     }, 1 * 1000, user)
                     :
                     setTimeout(function (user) {
                     	var welcomeNumber = Math.floor(Math.random() * basicBot.chat.welcomes.length);
-                        API.chatLog(subChat(basicBot.chat.welcomes[welcomeNumber], {name: user.username}));
+                        API.sendChat(subChat(basicBot.chat.welcomes[welcomeNumber], {name: user.username}));
                     }, 1 * 1000, user);
             }
         },
@@ -3487,14 +3487,14 @@
                         if (space === -1) {
                         basicBot.userUtilities.lookupUserName(name);
                             var danceNumber = Math.floor(Math.random() * basicBot.chat.dances.length);
-                    		API.chatLog(subChat(basicBot.chat.dances[danceNumber], {name: chat.un}));
+                    		API.sendChat(subChat(basicBot.chat.dances[danceNumber], {name: chat.un}));
                             
                         }
                         else {
                         var pairdanceNumber = Math.floor(Math.random() * basicBot.chat.pairdances.length);
                             var name2 = msg.substring(space + 1);
                             basicBot.userUtilities.lookupUserName(name);
-                   		API.chatLog(subChat(basicBot.chat.pairdances[pairdanceNumber], {name: chat.un, name2: name2}));
+                   		API.sendChat(subChat(basicBot.chat.pairdances[pairdanceNumber], {name: chat.un, name2: name2}));
                     	
                     }
                 }
@@ -3509,7 +3509,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                    	API.chatLog("= ^.˘.^ = &nbsp miaow!");
+                    	API.sendChat("= ^.˘.^ = &nbsp miaow!");
                     }
                 }
             },
