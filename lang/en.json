@@ -40,7 +40,7 @@
 	"\/me %%NAME%% asks %%NAME2%% for a dance. Now for a break. And now for help!",
 	"\/me %%NAME%% is dancing with %%NAME2%%, who isn't aware of it.",
 	"\/me %%NAME%% learns from experience that %%NAME2%% uses the word \"dance\" as a euphemism.",
-	"\/me %%NAME2%% tries to save %%NAME%% from a heart attack, who was actually just doing the robot dance."
+	"\/me %%NAME%% tries to save %%NAME2%% from a heart attack, who was actually just doing the robot dance."
 	],
     	
     "tests": [
