@@ -3487,14 +3487,14 @@
                         if (space === -1) {
                         basicBot.userUtilities.lookupUserName(name);
                             var danceNumber = Math.floor(Math.random() * basicBot.chat.dances.length);
-                    		API.sendChat(subChat(basicBot.chat.dances[danceNumber]), {name: chat.un});
+                    		API.sendChat(subChat(basicBot.chat.dances[danceNumber], {name: chat.un}));
                             
                         }
                         else {
                         var pairdanceNumber = Math.floor(Math.random() * basicBot.chat.pairdances.length);
                             var name2 = msg.substring(space + 1);
                             basicBot.userUtilities.lookupUserName(name);
-                   		API.sendChat(subChat(basicBot.chat.pairdances[pairdanceNumber]), {name: chat.un, name2: name2});
+                   		API.sendChat(subChat(basicBot.chat.pairdances[pairdanceNumber], {name: chat.un, name2: name2}));
                     	
                     }
                 }
