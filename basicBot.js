@@ -247,7 +247,7 @@
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
             startupEmoji: true, // true or false
-            cmdDeletion: true,
+            cmdDeletion: false,
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
@@ -263,7 +263,7 @@
             historySkip: true,
             timeGuard: true,
             maximumSongLength: 10,
-            autodisable: true,
+            autodisable: false,
             commandCooldown: 30,
             usercommandsEnabled: true,
             lockskipPosition: 3,
