@@ -135,7 +135,7 @@
     "datarestored": "Previously stored data was successfully retrieved.",
     "greyuser": "Only bouncers and up can run a bot.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
-    "online": "\/me %%BOTNAME%% v%%VERSION%% online!",
+    "online": "\/me %%BOTNAME%% v%%VERSION%% is still alive!",
     "welcome": "\/me Welcome %%NAME%%",
     "welcomeback": "\/me Welcome back, %%NAME%%",
     "songknown": "\/me @%%NAME%%, this song is in the DJ history.",
