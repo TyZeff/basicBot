@@ -224,12 +224,12 @@
         return str;
     };
 
-    var botCreator = "Matthew (Agamidae)";
+    var botCreator = "Matthew (Yemasthui)";
     var botMaintainer = "Benzi (Quoona)"
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.5.6",
+        version: "1.0",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -309,7 +309,7 @@
             allcommand: true,
             afkInterval: null,
             autoskip: true,
-            autoskipTimer: 5,
+            autoskipTimer: 4,
             autodisableInterval: null,
             autodisableFunc: function () {
                 if (basicBot.status && basicBot.settings.autodisable) {
