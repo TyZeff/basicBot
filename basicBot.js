@@ -279,7 +279,7 @@
             afkpositionCheck: null,
             afkRankCheck: "ambassador",
             motdEnabled: true,
-            motdInterval: 20,
+            motdInterval: 40,
             motd: "\"Music washes away from the soul the dust of everyday life.\" – Berthold Auerbach",
             filterChat: true,
             etaRestriction: false,
