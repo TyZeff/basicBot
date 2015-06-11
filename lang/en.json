@@ -67,12 +67,13 @@
 		"\/me Welcome, %%NAME%%. We predict that you will stay here for a long time. Stay with us to see if we were right!",
 		"\/me Welcome, %%NAME%%. Be warned: we claim no responsibility if this music will make you enjoy your work or studies.",
 		"\/me Welcome, %%NAME%%. We are very <___> to see you! You are so <___>. Stay with us and you will get a piece of <___>!",
+		"\/me Hello and welcome, %%NAME%%.",
+		"\/me Hello and welcome, %%NAME%%.",
+		"\/me Greetings, %%NAME%%.",
+		"\/me Greetings, %%NAME%%.",
 		"\/me Welcome, %%NAME%%.",
 		"\/me Welcome, %%NAME%%.",
-		"\/me Welcome, %%NAME%%.",
-		"\/me Welcome, %%NAME%%.",
-		"\/me Welcome, %%NAME%%.",
-		"\/me Welcome, %%NAME%%.",
+		"\/me Welcome, %%NAME%%."
 	],
 
 
