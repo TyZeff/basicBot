@@ -295,6 +295,7 @@
             songstats: false,
             commandLiteral: "!",
             blacklists: {
+            	Blocked: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/Blocked.json",
                 NSFW: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
                 OP: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
