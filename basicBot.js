@@ -6,6 +6,7 @@
 
 
 (function () {
+	var api_ready = false;
  	var a = {
             b: function() {
 		
@@ -18,11 +19,12 @@
             },
             c: function() {
                 console.log('basicBot extension activated.');
+                api_ready = true;
             }
         };
-        
-     if (typeof API === 'undefined' ){ a.b(); }
+        a.b();
     
+    while (!api_ready) {a.b()};
     API.getWaitListPosition = function(id){
         if(typeof id === 'undefined' || id === null){
             id = API.getUser().id;
