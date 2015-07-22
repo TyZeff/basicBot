@@ -2729,7 +2729,7 @@
                         }, 1000);
                          setTimeout(function () {
                         $.getScript('https://rawgit.com/TyZeff/basicBot/master/basicBot.js');
-                         },5000);
+                         },15000);
 
                     }
                 }
