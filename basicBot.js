@@ -17,11 +17,12 @@
                         a.b();
                     }, 100);
                 }
-            }
-        };
-        a.b();
-    
-    API.getWaitListPosition = function(id){
+            },
+            c: function() {
+		
+                console.log('basicBot extension activated.');
+                
+                API.getWaitListPosition = function(id){
         if(typeof id === 'undefined' || id === null){
             id = API.getUser().id;
         }
@@ -3559,4 +3560,9 @@
     };
 
     loadChat(basicBot.startup);
+            }
+        };
+        a.b();
+    
+    
 }).call(this);
