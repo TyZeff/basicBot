@@ -6,23 +6,15 @@
 
 
 (function () {
-
-        var a = {
-            b: function() {
-		
-                if (typeof API !== 'undefined' && API.enabled){
-                	console.log('basicBot extension activated.')
+ 	if (typeof API !== 'undefined' && API.enabled){
+                	 console.log('basicBot extension activated.')
                 } else {
                     setTimeout(function() {
                         a.b();
                     }, 100);
-                }
-            },
-            c: function() {
-		
-                console.log('basicBot extension activated.');
-                
-                API.getWaitListPosition = function(id){
+         }
+    
+    API.getWaitListPosition = function(id){
         if(typeof id === 'undefined' || id === null){
             id = API.getUser().id;
         }
@@ -3560,9 +3552,4 @@
     };
 
     loadChat(basicBot.startup);
-            }
-        };
-        a.b();
-    
-    
 }).call(this);
