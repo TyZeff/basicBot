@@ -11,7 +11,7 @@
             b: function() {
 		
                 if (typeof API !== 'undefined' && API.enabled){
-                	 console.log('basicBot extension activated.')
+                	console.log('basicBot extension activated.')
                 } else {
                     setTimeout(function() {
                         a.b();
