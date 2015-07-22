@@ -92,7 +92,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Agamidae/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/TyZeff/basicBot/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -295,9 +295,9 @@
             songstats: false,
             commandLiteral: "!",
             blacklists: {
-            	Blocked: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/Blocked.json",
-                NSFW: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Agamidae/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            	Blocked: "https://rawgit.com/TyZeff/basicBot-customization/master/blacklists/Blocked.json",
+                NSFW: "https://rawgit.com/TyZeff/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/TyZeff/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
         },
         room: {
@@ -2282,7 +2282,7 @@
                         if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.currentlang, {language: basicBot.settings.language}));
                         var argument = msg.substring(cmd.length + 1);
 
-                        $.get("https://rawgit.com/Agamidae/basicBot/master/lang/langIndex.json", function (json) {
+                        $.get("https://rawgit.com/TyZeff/basicBot/master/lang/langIndex.json", function (json) {
                             var langIndex = json;
                             var link = langIndex[argument.toLowerCase()];
                             if (typeof link === "undefined") {
