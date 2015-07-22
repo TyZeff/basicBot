@@ -24,20 +24,20 @@
         };
         a.b();
     
-    while (!api_ready) {a.b()};
-    API.getWaitListPosition = function(id){
-        if(typeof id === 'undefined' || id === null){
-            id = API.getUser().id;
-        }
-        var wl = API.getWaitList();
-        for(var i = 0; i < wl.length; i++){
-            if(wl[i].id === id){
-                return i;
-            }
-        }
-        return -1;
-    };
-
+    if (!api_ready) {a.b()} else {
+	    API.getWaitListPosition = function(id){
+	        if(typeof id === 'undefined' || id === null){
+	            id = API.getUser().id;
+	        }
+	        var wl = API.getWaitList();
+	        for(var i = 0; i < wl.length; i++){
+	            if(wl[i].id === id){
+	                return i;
+	            }
+	        }
+	        return -1;
+	    };
+	}
     var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
         clearInterval(basicBot.room.afkInterval);
