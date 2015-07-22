@@ -2727,10 +2727,6 @@
                         setTimeout(function () {
                             window.location.reload(false);
                         }, 1000);
-                         setTimeout(function () {
-                        $.getScript('https://rawgit.com/TyZeff/basicBot/master/basicBot.js');
-                         },15000);
-
                     }
                 }
             },
