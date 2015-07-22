@@ -231,19 +231,19 @@
     var basicBot = {
         version: "1.0",
         status: false,
-        name: "basicBot",
+        name: "MoCBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Agamidae/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/TyZeff/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Agamidae/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/TyZeff/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "GLaDOS",
+            botName: "=^.°.^= MofChillout bot",
             language: "english",
-            chatLink: "https://rawgit.com/Agamidae/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/TyZeff/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
             startupEmoji: true, // true or false
@@ -2726,6 +2726,9 @@
                         setTimeout(function () {
                             window.location.reload(false);
                         }, 1000);
+                         setTimeout(function () {
+                        $.getScript('https://rawgit.com/TyZeff/basicBot/master/basicBot.js');
+                         },5000);
 
                     }
                 }
