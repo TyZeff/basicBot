@@ -7,6 +7,22 @@
 
 (function () {
 
+        var a = {
+            b: function() {
+		
+                if (typeof API !== 'undefined' && API.enabled)
+                    //this.c();
+                else
+                    setTimeout(function() {
+                        a.b();
+                    }, 100);
+            },
+            c: function() {
+                console.log('basicBot extension activated.');
+            }
+        };
+        a.b();
+    
     API.getWaitListPosition = function(id){
         if(typeof id === 'undefined' || id === null){
             id = API.getUser().id;
