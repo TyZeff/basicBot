@@ -10,15 +10,13 @@
         var a = {
             b: function() {
 		
-                if (typeof API !== 'undefined' && API.enabled)
-                    //this.c();
-                else
+                if (typeof API !== 'undefined' && API.enabled){
+                	 console.log('basicBot extension activated.')
+                } else {
                     setTimeout(function() {
                         a.b();
                     }, 100);
-            },
-            c: function() {
-                console.log('basicBot extension activated.');
+                }
             }
         };
         a.b();
