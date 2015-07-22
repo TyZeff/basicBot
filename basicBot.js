@@ -20,8 +20,8 @@
                 console.log('basicBot extension activated.');
             }
         };
-        a.b();
-    
+        
+     if (typeof API === 'undefined' ){ a.b(); }
     
     API.getWaitListPosition = function(id){
         if(typeof id === 'undefined' || id === null){
