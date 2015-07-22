@@ -292,7 +292,7 @@
             website: null,
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
             	Blocked: "https://rawgit.com/TyZeff/basicBot-customization/master/blacklists/Blocked.json",
