@@ -67,7 +67,7 @@
     };
 
     var storeToStorage = function () {
-    	debugger;
+     	console.log(localStorage);
         localStorage.setItem("basicBotsettings", JSON.stringify(basicBot.settings));
         localStorage.setItem("basicBotRoom", JSON.stringify(basicBot.room));
         var basicBotStorageInfo = {
@@ -76,7 +76,7 @@
             version: basicBot.version
         };
         localStorage.setItem("basicBotStorageInfo", JSON.stringify(basicBotStorageInfo));
-
+		console.log(localStorage);
     };
 
     var subChat = function (chat, obj) {
