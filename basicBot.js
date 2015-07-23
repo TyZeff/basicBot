@@ -248,7 +248,7 @@
             language: "english",
             chatLink: "https://rawgit.com/TyZeff/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
-            startupVolume: 50, // 0-100
+            startupVolume: 0, // 0-100
             startupEmoji: true, // true or false
             cmdDeletion: false,
             maximumAfk: 120,
