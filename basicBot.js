@@ -67,6 +67,7 @@
     };
 
     var storeToStorage = function () {
+    	debugger;
         localStorage.setItem("basicBotsettings", JSON.stringify(basicBot.settings));
         localStorage.setItem("basicBotRoom", JSON.stringify(basicBot.room));
         var basicBotStorageInfo = {
